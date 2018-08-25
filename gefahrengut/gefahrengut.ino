@@ -1,4 +1,5 @@
 void setup() {
+  delay(1000); // 1 second delay for recovery
   pinMode(D5, OUTPUT);
 }
 
