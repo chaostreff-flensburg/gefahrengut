@@ -11,5 +11,5 @@ void loop() {
     delay(10000);
   };
   digitalWrite(D5, LOW);
-  delay(random(5000, 10000));
+  delay(random(500, 10000));
 }
