@@ -2,7 +2,6 @@ void setup() {
   pinMode(D5, OUTPUT);
 }
 
-int timer = 1000;
 
 void loop() {
   digitalWrite(D5, HIGH);
