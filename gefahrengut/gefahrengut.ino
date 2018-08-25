@@ -3,7 +3,7 @@ void setup() {
 }
 
 void loop() {
-  int powerMode = ceil(random(0,101));
+  int powerMode = ceil(random(50,101));
   digitalWrite(D5, HIGH);
   delay(random(500, 2000));
   if (powerMode == 100) {
